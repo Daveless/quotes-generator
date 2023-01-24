@@ -14,11 +14,17 @@ function App() {
 
   const [quote, setquote] = useState(getRandom(db))
   const [color, setcolor] = useState(colors[0]) 
+    let nextColor = getRandom(colors)
 
 
   const newQuote = () => {
-      setquote(getRandom(db))
-      setcolor(colors[getRandom(colors)])
+      setquote(getRandom(db));
+      
+      do{
+        nextColor = getRandom(colors)
+      } while (color===colors[nextColor])
+      console.log(color, colors[nextColor])
+      setcolor(colors[nextColor])
   }
 
   return (

@@ -1,0 +1,158 @@
+:root{
+  --red: rgb(139, 34, 34);
+  --blue: rgb(57, 57, 168);
+  --yellow: rgb(158, 148, 2);
+  --green: rgb(11, 65, 11);
+  --pink: rgb(173, 117, 127);
+  --purple: rgb(92, 26, 92);
+  --brown: rgb(53, 17, 17);
+  --black: rgb(26, 26, 26);
+  --white: rgb(153, 153, 153);
+
+
+}
+html{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body{
+  font-family: sans-serif;
+  font-weight: 700;
+  margin: 0;
+  height: 100%;
+}
+/*------ App styles --------*/
+.App{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  
+}
+
+/*---- QuoteBox styles -----*/
+.quoteBox {
+width: 50%;
+min-width: 320px;
+max-width: 700px;
+margin: auto;
+padding: 1rem 2rem;
+background-color: rgb(236, 236, 236);
+display: grid;
+flex-direction: column;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.textBox{
+  display: flex;
+}
+i{
+  font-size: 2rem;
+  margin: 0.1rem 0.1rem;
+  border: none;  
+}
+
+.author{
+  text-align: right;
+}
+
+/*------ Button styles ------*/
+button{
+  display: flex;
+  justify-self: right;
+  border-radius: 50%;
+  border: none;
+}
+button i{
+  color: rgb(236, 236, 236);
+}
+
+/*----- colors -----*/
+
+
+.red{
+background-color: var(--red);
+color: var(--red);
+}
+.red button{
+  background-color: var(--red);
+}
+
+
+.blue{
+background-color: var(--blue);
+color: var(--blue);
+}
+.blue button{
+  background-color: var(--blue);
+}
+
+
+
+.yellow{
+background-color: var(--yellow);
+color: var(--yellow);
+}
+.yellow button{
+  background-color: var(--yellow);
+}
+
+
+.green{
+background-color: var(--green);
+color: var(--green);
+}
+.green button{
+  background-color: var(--green);
+}
+
+
+.pink{
+background-color: var(--pink);
+color: var(--pink);
+}
+.pink button{
+  background-color: var(--pink);
+}
+
+
+.purple{
+background-color: var(--purple);
+color: var(--purple);
+}
+.purple button{
+  background-color: var(--purple);
+}
+
+
+.brown{
+background-color: var(--brown);
+color: var(--brown);
+}
+.brown button{
+  background-color: var(--brown);
+}
+
+.black{
+background-color: var(--black);
+color: var(--black);
+}
+.black button{
+  background-color: var(--black);
+}
+
+
+.white{
+background-color: var(--white);
+color: var(--white);
+}
+.white button{
+  background-color: var(--white);
+}
+
+
+
+
